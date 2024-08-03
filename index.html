@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invention Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Invention Showcase</h1>
+        <p>Upload your cool inventions and see if anyone would buy them!</p>
+    </header>
+    <main>
+        <section id="upload">
+            <h2>Upload Your Invention</h2>
+            <form>
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+                
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" required></textarea>
+                
+                <label for="price">Price:</label>
+                <input type="number" id="price" name="price" required>
+                
+                <label for="image">Image:</label>
+                <input type="file" id="image" name="image" accept="image/*" required>
+                
+                <button type="submit">Upload</button>
+            </form>
+        </section>
+        <section id="inventions">
+            <h2>Cool Inventions</h2>
+            <!-- Inventions will be displayed here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Invention Showcase</p>
+    </footer>
+</body>
+</html>
